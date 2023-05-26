@@ -1,6 +1,6 @@
 # Tipado dinámico
 
-NOMBRE = "Gerardo"  # Para las constantes siempre seán en mayúsculas
+NOMBRE = "Gerardo"  # Para las constantes siempre serán en mayúsculas
 EDAD = 35
 SALDO = 74656.46868468
 BOOL = True
