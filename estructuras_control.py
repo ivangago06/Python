@@ -71,5 +71,24 @@ else:
 
 # escribir un programa que pregunte el nombre del usuario en la consola y después de capturado, mostrar en pantalla cuantas letras tiene el nombre, que letra es mayúscula y que posición tiene la letra mayúscula
 
+nombre = input("Ingresa tu nombre: ")
 
+indice=0
+mayusculas=0
+minusculas=0
+while indice < len(nombre):
+  letra = nombre[indice]
+  if letra.isupper() == True:
+    mayusculas +=1
+  else:
+    minusculas +=1
+  indice += 1
+
+print("Total mayúsculas:" , mayusculas)
+print("Total minúsculas:" , minusculas)
+print("Total de caracteres:" , indice, "\n")
+
+
+for posicion, letra in enumerate(nombre):
+  print("La posición es:", posicion, "pertenece a la letra: ", letra)
   
