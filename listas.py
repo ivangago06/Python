@@ -70,7 +70,17 @@ posicion = lista_vacia.index(999)
 
 print(posicion)
 
+# Realizar un programa que ingrese los numeros que desee ordenar , recibirlos y después mostrarselos al usuario ordenados usando listas.
 
 
+limite = int(input("Ingresa la longitud de la lista que desees: "))
+print("\n")
+lista_desordenada = []
+base = 1
+while (base<=limite): 
+  elementos = int(input("Ingresa el elemento que se añadirá a la lista: "))  
+  lista_desordenada.append(elementos)  
+  base+=1 
 
-
+print("\nLista desordenada: ", lista_desordenada)
+print("Lista ordenada: ", sorted(lista_desordenada))
