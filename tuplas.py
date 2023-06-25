@@ -1,7 +1,3 @@
-# Investigar casos de uso laboral para una tupla de 1 solo elemento.
-
-# Multiplicación y la traspuesta con Numpy
-
 import numpy as np # Se instaló la librería Numpy con la siguiente sentencia: pip install numpy en consola
 
 # matriz simple
