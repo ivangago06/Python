@@ -1,0 +1,1 @@
+# Realizar un CRUD (SELECT, UPDATE, INSERT Y DELETE) con menú selecionable con opción de salir, puede ser con MYSQL, SLQ o SQLITE3, se debe de entregar a mas tardar el 10 de julio
